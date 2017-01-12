@@ -14,7 +14,7 @@ ten <- addThree(7)
 # The function should return the total length in meters
 ImperialToMetric <- function (feet, inches){
   totalInches <- ((feet*12)+inches)
-  return (totalInches*2.54)
+  return ((totalInches*2.54)/100)
 }
 
 # Create a variable `height.in.meters` by passing your height in imperial to the
